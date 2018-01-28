@@ -2,7 +2,7 @@ The objective is to extract the date from medical notes.
 
 The dates must have a format X/X/XXX or XX/XX/XXXX.
 
-#### Initial document
+#### Extract of the initial document
 ![png](images/dates_bf.PNG)
 
 #### Output: 
