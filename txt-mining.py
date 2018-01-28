@@ -1,15 +1,10 @@
-The objective is to extract the date from medical notes.
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 24 10:38:18 2018
 
-The dates must have a format X/X/XXX or XX/XX/XXXX.
+@author: DAMI
+"""
 
-#### Initial document
-![png](images/dates_bf.PNG)
-
-#### Output: 
-![png](images/dates_af.PNG)
-
-### The code
-```python
 import csv
 import re
 
@@ -25,4 +20,6 @@ for j in text:
     else:
         formatted_dates.append(regex2)    
 print(formatted_dates)
-```
+
+        
+        
